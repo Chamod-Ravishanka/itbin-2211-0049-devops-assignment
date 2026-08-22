@@ -9,7 +9,7 @@ This project was completed for Assessment 2 - Advanced Git & DevOps. TaskFlow Pr
 ## Live Deployment
 🔗 **Live URL:** https://chamod-ravishanka.github.io/itbin-2211-0049-devops-assignment/
 
-> This project is configured for GitHub Pages deployment and can be published from the `main` branch after linking the repository to GitHub Pages.
+> This project is configured for GitHub Pages deployment and will publish automatically from the `main` branch once the GitHub Actions workflow runs successfully.
 
 ## Technologies Used
 - HTML5 / CSS3 / JavaScript
