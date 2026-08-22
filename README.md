@@ -1,13 +1,13 @@
-# TaskFlow Pro
+# Assessment 2 - Advanced Git & DevOps
 
-## Group Information
-- **Student 1:** Chamod Ravishank - ITBIN-2211-0049 - Role: DevOps Engineer & Full-Stack Developer
+## Student Information
+- **Student:** Chamod Ravishank - ITBIN-2211-0049 - Role: Developer
 
 ## Project Description
-TaskFlow Pro is a simple, responsive to-do list application designed to help students and professionals manage daily tasks effectively. It includes task creation, completion tracking, deletion, and filtering so users can focus on work without losing momentum.
+This project was completed for Assessment 2 - Advanced Git & DevOps. TaskFlow Pro is a simple, responsive to-do list application designed to help students and professionals manage daily tasks effectively. It includes task creation, completion tracking, deletion, and filtering so users can focus on work without losing momentum.
 
 ## Live Deployment
-🔗 **Live URL:** https://chamodravishank.github.io/solo-devops-assignment/
+🔗 **Live URL:** https://chamodravishank.github.io/itbin-2211-0049-devops-assignment/
 
 > This project is configured for GitHub Pages deployment and can be published from the `main` branch after linking the repository to GitHub Pages.
 
@@ -24,10 +24,10 @@ TaskFlow Pro is a simple, responsive to-do list application designed to help stu
 - **Responsive interface**: Works across desktop and mobile screen sizes.
 
 ## Branch Strategy
-We followed a simplified Git Flow approach for a solo developer:
+This project follows a simplified Git Flow approach:
 - `main` - Production-ready branch used for deployment.
 - `develop` - Integration branch for validated changes before release.
-- `feature/*` - Individual feature branches used to isolate updates and improvements.
+- `feature/*` - Feature branches used to isolate updates and improvements.
 
 ## Individual Contributions
 ### Chamod Ravishank
@@ -46,11 +46,11 @@ We followed a simplified Git Flow approach for a solo developer:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/[username]/[repo-name].git
+   git clone https://github.com/[username]/itbin-2211-0049-devops-assignment.git
    ```
 2. Navigate into the directory:
    ```bash
-   cd solo-devops-assignment
+   cd itbin-2211-0049-devops-assignment
    ```
 3. Install dependencies:
    ```bash
@@ -66,7 +66,7 @@ We followed a simplified Git Flow approach for a solo developer:
 The GitHub Actions pipeline runs automatically on pushes to `main`, `develop`, and `feature/**` branches. It installs dependencies, validates JavaScript syntax, builds the project, and then deploys the static output to GitHub Pages when changes land on `main`.
 
 ### Challenges & Resolutions
-A key challenge was aligning the repository workflow for a single-person assignment while still following the DevOps workflow from the assignment requirements. This was resolved by using a `main` production branch, a `develop` integration branch, and feature-specific branches for each task area, then documenting the process clearly in the repository and project workflow.
+A key challenge was aligning the repository workflow with the assignment requirements while maintaining a clean DevOps process for Assessment 2 - Advanced Git & DevOps. This was resolved by using a `main` production branch, a `develop` integration branch, and feature-specific branches for each task area, then documenting the process clearly in the repository and project workflow.
 
 ## Build Status
 ![CI Badge](https://github.com/[username]/[repo]/actions/workflows/ci.yml/badge.svg)
@@ -80,7 +80,7 @@ A key challenge was aligning the repository workflow for a single-person assignm
 
 ## Verification Checklist
 - [x] Public repository configuration ready for GitHub Publishing
-- [x] Completed solo member documentation in README
+- [x] Documentation completed in README
 - [x] CI workflow available in `.github/workflows/ci.yml`
 - [x] Deployment workflow available in `.github/workflows/deploy.yml`
 - [x] Frontend app implemented and responsive

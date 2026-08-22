@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'taskflow-pro.tasks';
+const STORAGE_KEY = 'itbin-2211-0049-devops-assignment.tasks';
 const DEFAULT_FILTER = 'all';
 
 const taskInput = document.getElementById('taskInput');
