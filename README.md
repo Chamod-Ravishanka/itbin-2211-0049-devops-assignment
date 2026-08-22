@@ -7,7 +7,7 @@
 This project was completed for Assessment 2 - Advanced Git & DevOps. TaskFlow Pro is a simple, responsive to-do list application designed to help students and professionals manage daily tasks effectively. It includes task creation, completion tracking, deletion, and filtering so users can focus on work without losing momentum.
 
 ## Live Deployment
-🔗 **Live URL:** https://chamodravishank.github.io/itbin-2211-0049-devops-assignment/
+🔗 **Live URL:** https://chamod-ravishanka.github.io/itbin-2211-0049-devops-assignment/
 
 > This project is configured for GitHub Pages deployment and can be published from the `main` branch after linking the repository to GitHub Pages.
 
