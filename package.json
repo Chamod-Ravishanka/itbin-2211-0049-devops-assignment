@@ -1,0 +1,10 @@
+{
+  "name": "taskflow-pro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "node --check src/scripts/app.js",
+    "build": "node build.js",
+    "test": "npm run lint && npm run build"
+  }
+}

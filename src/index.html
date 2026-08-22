@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow Pro</title>
+    <meta name="description" content="TaskFlow Pro personal productivity dashboard" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Daily planner</p>
+          <h1>TaskFlow Pro</h1>
+        </div>
+        <div class="status-pill" id="statusPill">Ready to plan</div>
+      </header>
+
+      <main class="app-card">
+        <section class="task-input-panel">
+          <label for="taskInput" class="sr-only">Add new task</label>
+          <input id="taskInput" type="text" placeholder="Add a new task..." maxlength="120" />
+          <button id="addTaskButton" class="primary-btn">Add task</button>
+        </section>
+
+        <section class="filters" aria-label="Task filters">
+          <button class="filter-btn active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="active" type="button">Active</button>
+          <button class="filter-btn" data-filter="completed" type="button">Completed</button>
+        </section>
+
+        <section class="summary" aria-live="polite">
+          <div class="summary-item">
+            <span class="summary-label">Total</span>
+            <strong id="totalTasks">0</strong>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Done</span>
+            <strong id="completedTasks">0</strong>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Remaining</span>
+            <strong id="remainingTasks">0</strong>
+          </div>
+        </section>
+
+        <ul id="taskList" class="task-list" aria-live="polite"></ul>
+      </main>
+    </div>
+
+    <template id="taskItemTemplate">
+      <li class="task-item">
+        <label class="task-check">
+          <input type="checkbox" class="task-toggle" />
+          <span class="custom-check"></span>
+        </label>
+        <span class="task-text"></span>
+        <button class="delete-btn" type="button" aria-label="Delete task">Delete</button>
+      </li>
+    </template>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
