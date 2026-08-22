@@ -69,8 +69,8 @@ The GitHub Actions pipeline runs automatically on pushes to `main`, `develop`, a
 A key challenge was aligning the repository workflow with the assignment requirements while maintaining a clean DevOps process for Assessment 2 - Advanced Git & DevOps. This was resolved by using a `main` production branch, a `develop` integration branch, and feature-specific branches for each task area, then documenting the process clearly in the repository and project workflow.
 
 ## Build Status
-![CI Badge](https://github.com/[username]/[repo]/actions/workflows/ci.yml/badge.svg)
-![Deploy Badge](https://github.com/[username]/[repo]/actions/workflows/deploy.yml/badge.svg)
+![CI Badge](https://github.com/Chamod-Ravishanka/itbin-2211-0049-devops-assignment/actions/workflows/ci.yml/badge.svg)
+![Deploy Badge](https://github.com/Chamod-Ravishanka/itbin-2211-0049-devops-assignment/actions/workflows/deploy.yml/badge.svg)
 
 ## Git Workflow Notes
 - `main` is protected for production deployment.
