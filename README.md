@@ -85,3 +85,6 @@ A key challenge was aligning the repository workflow for a single-person assignm
 - [x] Deployment workflow available in `.github/workflows/deploy.yml`
 - [x] Frontend app implemented and responsive
 - [x] Persistent task storage configured with localStorage
+
+## Design Notes
+- Built for fast task tracking and a clean single-page workflow.
